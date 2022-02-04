@@ -1,0 +1,158 @@
+html, body {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+button{
+    display: inline-block;
+    background-color: #fffb00;
+    padding:5px 15px;
+    border: none;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.all-btn{
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 750px;
+}
+
+button:disabled {
+  background: #dddddd;
+  color: rgb(83, 81, 81);
+}
+
+
+#score{
+    color: #ffffff;
+    margin: 0;
+}
+
+#result{
+    font-weight: 600;
+    margin: 0;
+}
+
+.all-results{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.pac-tries{
+    display: flex;
+    /* border: 1px solid white; */
+    width: 750px;
+    margin: 0 auto;
+    margin-top:10px;
+
+}
+
+.pacman-tri{
+  height: 0;
+  width: 0;
+  background-color: rgb(15, 15, 15);
+  border: 10px solid #fffb00;
+  border-radius:10px;
+  border-right-color: transparent;
+  margin-right: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 750px;
+}
+
+.grid div {
+    width: 15px;
+    height: 15px;
+}
+
+.power-pellet {
+     background-color: rgb(245, 153, 222);
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.pac-dot{
+      background: rgb(15, 15, 15);
+    background-image: url("./images/dot.png");
+    background-size: cover;
+    border: none;
+}
+
+.wall{
+    background-color: rgb(46, 33, 236);
+}
+
+.wall-grey{
+    background-color: rgb(118, 118, 118);
+}
+
+.grid .pacman {
+  height: 0;
+  width: 0;
+  background-color: rgb(15, 15, 15);
+  border: 7.5px solid #fffb00;
+  border-radius:7.5px;
+  border-right-color: transparent;
+}
+
+.blinky {
+  background: rgb(15, 15, 15);
+    background-image: url("./images/blinky.png");
+    background-size: cover;
+    border: none;
+}
+
+.pinky {
+    background: rgb(15, 15, 15);
+    background-image: url("./images/pinky.png");
+    background-size: cover;
+    border: none;
+}
+
+.inky {
+    background: rgb(15, 15, 15);
+    background-image: url("./images/inky.png");
+    background-size: cover;
+    border: none;
+}
+
+.inky1 {
+    background: rgb(15, 15, 15);
+    background-image: url("./images/inky1.png");
+    background-size: cover;
+    border: none;
+}
+
+.clyde {
+    background: rgb(15, 15, 15);
+    background-image: url("./images/clyde.png");
+    background-size: cover;
+    border: none;
+}
+
+.purple{
+    background: rgb(15, 15, 15);
+    background-image: url("./images/purple.png");
+    background-size: cover;
+    border: none;
+}
+
+.scared-ghost {
+   background: rgb(15, 15, 15);
+    background-image: url("./images/dead1.png");
+    background-size:100% 100%;
+    border: none;
+}
